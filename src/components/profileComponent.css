@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-bottom: none;
+
+
+}
+
+.avatar{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.profileinfo{
+    text-align: left;
+    border: 0.1px solid #dad1d1;
+    border-top: none;
+    border-bottom: none;
+    font-size: small;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.profile__name{
+    font-size: small;
+    font-weight: 700;
+}
+
+.profile__email{
+    font-size: smaller;
+    color: gray;
+}
+.profile__phone{
+    font-size: smaller;
+    color: gray;
+}
+
+
+.profile__website{
+    font-size: smaller;
+    color: gray;
+}
+
+
+.buttons{
+    display: flex;
+    border: 2px solid #FCFCFC;
+    border: 0.1px solid #dad1d1;
+
+}
+
+.editPost{
+    display: flex;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    justify-content: center;
+    width: 100%;
+}
+
+.deletePost{
+    display: flex;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    justify-content: center;
+    width: 100%;
+}
+
+.likePost{display: flex;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    justify-content: center;
+    width: 100%;
+}
+
+.material-icons{
+    font-size: 10px;
+    padding: 2px 4px 0px 0px;
+}
